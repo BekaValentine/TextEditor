@@ -8,4 +8,4 @@ A new terminal-based text editor with scripting and stuff.
 
 - Navigation commands include things like going to previous locations
 
-- Good non-moded key combos for navigation and selection
+- Good non-moded key combos for navigation, selection, deletion, etc. in a nano-like way
