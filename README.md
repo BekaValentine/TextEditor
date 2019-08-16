@@ -14,7 +14,7 @@ A new terminal-based text editor with scripting and stuff.
 
 - Commands are typed. Some need to operate at a location, some operate on selections
 
-- Fundamental non-deterministic in certain aspects (e.g. selections, locations, etc.)
+- Fundamental non-deterministism in certain aspects (e.g. selections, locations, etc.) -- tho possibly done using type formers instead of actually being non-deterministic?
 
 ## Commands
 
