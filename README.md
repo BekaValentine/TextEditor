@@ -11,3 +11,17 @@ A new terminal-based text editor with scripting and stuff.
 - Navigation commands include things like going to previous locations
 
 - ~Good non-moded key combos for navigation, selection, deletion, etc. in a nano-like way~ Everything except local navigation is through the command interface
+
+## Commands
+
+- Setting the name
+- Saving
+- Changing display info?
+- Navigation
+- Selection
+- Insertion
+- Deletion
+- Regex Replacement?
+- Search
+- Cut, Copy, Paste
+- History
