@@ -69,4 +69,4 @@ Code:
 
 `next 3 words` selects the next three words, each as a separate string
 
-`next 3 words | replace_with (_ | to_length | i_to_s)` selects the next three words, each as a separate string, and replaces them with their lengths
+`next 3 words | replace_with {_ | to_length | i_to_s}` selects the next three words, each as a separate string, and replaces them with their lengths
