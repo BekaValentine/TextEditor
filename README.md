@@ -29,3 +29,44 @@ A new terminal-based text editor with scripting and stuff.
 - Search
 - Cut, Copy, Paste
 - History
+
+## Example Code
+
+### Function Application
+
+```
+  f x
+= x | f
+```
+
+### Lambdas
+
+```
+  1 + 2
+= 1 > {_ + 2}
+= {_ + _} 1 2
+= {_0 + _1} 1 2
+= {_1 + _0} 2 1
+= (\x y -> x + y) 1 2
+```
+
+### Bigger Examples
+
+Given
+
+```
+-- Selection ~= [String] but not precisely
+select : Nat -> Direction -> Selection
+forward : Direction
+next : Nat -> Unit -> Selection
+to_length : Selection -> Int
+i_to_s : Int -> String
+replace : (String -> String) -> Selection -> Action
+```
+Code:
+
+`select 5 forward` selects the 5 characters from the cursor forward
+
+`next 3 words` selects the next three words, each as a separate string
+
+`next 3 words | replace_with (_ | to_length | i_to_s)` selects the next three words, each as a separate string, and replaces them with their lengths
